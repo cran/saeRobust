@@ -11,20 +11,18 @@
 #'
 #' @rdname correlation
 #' @export
-corSAR1(W ~ matrix | Matrix) %type% {
-  .Object
-}
+setClass("corSAR1", slots = c(W = "matrixORMatrix"))
 
 #' @name corSAR1
-#' @usage corSAR1(W, ...)
+#' @usage corSAR1(W)
 #'
 #' @param W the row-standardised proximity matrix
-#' @param ... arguments passed to \code{new}. In the case of corSAR1AR1
-#'   arguments \code{W} and \code{nTime} are expected.
 #'
 #' @rdname correlation
 #' @export corSAR1
-corSAR1
+corSAR1 <- function(W) {
+  new("corSAR1", W = W)
+}
 
 #' @details \code{corAR1} can be used to model a autoregressive
 #'   process of order one: temporal correlation.
@@ -33,29 +31,31 @@ corSAR1
 #'
 #' @rdname correlation
 #' @export
-corAR1(nTime ~ numeric | integer) %type% {
-  .Object
-}
+setClass("corAR1", slots = c(nTime = "numericORinteger"))
 
 #' @name corAR1
-#' @usage corAR1(nTime, ...)
+#' @usage corAR1(nTime)
 #'
 #' @param nTime (numeric) number of time periods
 #'
 #' @rdname correlation
 #' @export corAR1
-corAR1
+corAR1 <- function(nTime) {
+  new("corAR1", nTime = nTime)
+}
 
 #' @rdname correlation
 #' @export
-corAR1 : corSAR1 : corSAR1AR1() %type% .Object
+setClass("corSAR1AR1", contains = c("corAR1", "corSAR1"))
 
 #' @details \code{corSAR1AR1} can be used to model to model spatial and temporal
 #'   correlation
 #'
 #' @name corSAR1AR1
-#' @usage corSAR1AR1(...)
+#' @usage corSAR1AR1(nTime, W)
 #'
 #' @rdname correlation
 #' @export corSAR1AR1
-corSAR1AR1
+corSAR1AR1 <- function(nTime, W) {
+  new("corSAR1AR1", nTime = nTime, W = W)
+}
