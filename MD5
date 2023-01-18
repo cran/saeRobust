@@ -1,7 +1,7 @@
-73409a6e0abd1ea9b3d3ae5e28fa76e4 *DESCRIPTION
+c785b2a078611b131af5409bf260931e *DESCRIPTION
 6cc9f87b1928caeb148b18011cf4ee05 *LICENSE
 5b8e1b390a1f6e2a5d58595cffcaa1ff *NAMESPACE
-cc24b4c38a671c57cb6c35d5c478f26a *NEWS
+7287f9c34962efe2dd7b6e31d42eb35c *NEWS
 af03ab735064413ec8d8a14922f63ffc *R/NAMESPACE.R
 d992bbcbf39ef2f43e0db51cb9e6fc0b *R/RcppExports.R
 e78aa395540447b051d95e58a74bbf0e *R/bootstrap.R
@@ -23,11 +23,11 @@ cd0af94ed952b83aaece27038647b8ba *R/psiFunctions.R
 37812f1ba6dd7f9365937dce8317c303 *R/testData.R
 3780da8bac7bafe98e2f9f66b70c0f12 *R/update.R
 0151ab552604f40ba49e04e7367fe844 *R/variance.R
-115963d6fa698d0908c9f314edf56808 *build/vignette.rds
+124fe55f45660c5872cb46217d53f9b8 *build/vignette.rds
 20ed123171664f3d4f0d7161e24215b6 *inst/Readme.Rmd
 49ed9c7420944cd902132bba64c6e551 *inst/doc/fixedPoint.R
 78ae43e01e441923eefd778ab2ac15fb *inst/doc/fixedPoint.Rmd
-64ce5ff5a5c310e2d55258dc5be196e7 *inst/doc/fixedPoint.html
+1546b73f62f111cebe0c46ca8b4d7406 *inst/doc/fixedPoint.html
 8f224c36f4fc7ae265550a554f4002eb *man/bootstrap.Rd
 c652c31c12d8dbd7cb6d9492eb4807be *man/constTestData.Rd
 55eb6a90ce201b30dfba040cd2b8fe2c *man/correlation.Rd
@@ -46,7 +46,7 @@ fca3784e28e3a7642d1cb7268c7adc3e *man/variance.Rd
 a73031cbe7d6aaf0bd22e20f6526977d *src/Makevars.win
 f86072e10516c6e713e8ac798ec1fd62 *src/RcppExports.cpp
 b293acc7b1504fe7e43877f81d3097ca *src/matixDefinitions.cpp
-8c6613755cd6a61bc31fadd638fc7a25 *tests/testthat.R
+7c07c77de1a02343f31379ff97e8f7d7 *tests/testthat.R
 66c4536f0c6650774b0a45148995cdac *tests/testthat/test-bootstrap.R
 7f95b749a480658ce2688c3317cd146f *tests/testthat/test-fit.R
 f8fc5976654265658c1dc5331a7f62bc *tests/testthat/test-fixedPoint.R
@@ -55,7 +55,7 @@ ab52c31c1e2e7864777686c017681623 *tests/testthat/test-makeXY.R
 e326120f3acd4dc5ad5f883e304a07cb *tests/testthat/test-matModels.R
 c04a977754434d88e958f650c0299673 *tests/testthat/test-mse.R
 2644f3edacf04c8c4af65bc887a354e2 *tests/testthat/test-print.R
-0c83cbbe199e6140bf17c9a1b5703939 *tests/testthat/test-rfh.R
+1c57787fe93e385c6ef94e010768c5d6 *tests/testthat/test-rfh.R
 602211f283454f1873e371ed079725ea *tests/testthat/test-robustEstimationEquations.R
 62074c832333e57930fc343f9adadeba *tests/testthat/test-robustObjectiveFunctions.R
 0534ed42e7b1ea01c1a3917704d6368c *tests/testthat/test-testData.R
