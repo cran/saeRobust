@@ -1,7 +1,7 @@
-c785b2a078611b131af5409bf260931e *DESCRIPTION
+74b3ea9b12f531bd6a0c4e95784cb3ec *DESCRIPTION
 6cc9f87b1928caeb148b18011cf4ee05 *LICENSE
 5b8e1b390a1f6e2a5d58595cffcaa1ff *NAMESPACE
-7287f9c34962efe2dd7b6e31d42eb35c *NEWS
+0de55945c042e814c8937f2716883c7c *NEWS
 af03ab735064413ec8d8a14922f63ffc *R/NAMESPACE.R
 d992bbcbf39ef2f43e0db51cb9e6fc0b *R/RcppExports.R
 e78aa395540447b051d95e58a74bbf0e *R/bootstrap.R
@@ -15,7 +15,7 @@ abb78ee908db1dabb30fe931ca00e815 *R/makeXY.R
 ede1710bb456d1f1475d8a3f81a1ba94 *R/matModels.R
 633c7bba2d3cbfcbd819e269e4a20a33 *R/mse.R
 1b72cb005c0d5b29cbfd20920b228768 *R/plot.R
-45d413dbed3a4dabbab8f4b876dfb9e8 *R/print.R
+dfba2c3baf2568af6cb26fb8b6aa8b26 *R/print.R
 cd0af94ed952b83aaece27038647b8ba *R/psiFunctions.R
 10af9d9bcddad1b7cb96812895676ed3 *R/rfh.R
 204c75bf3b0ce8642ae59ceb78cf4dbe *R/robustEstimationEquations.R
@@ -23,11 +23,11 @@ cd0af94ed952b83aaece27038647b8ba *R/psiFunctions.R
 37812f1ba6dd7f9365937dce8317c303 *R/testData.R
 3780da8bac7bafe98e2f9f66b70c0f12 *R/update.R
 0151ab552604f40ba49e04e7367fe844 *R/variance.R
-124fe55f45660c5872cb46217d53f9b8 *build/vignette.rds
+7d7cfe63b15b58524a4e41ef9ec2cdfd *build/vignette.rds
 20ed123171664f3d4f0d7161e24215b6 *inst/Readme.Rmd
 49ed9c7420944cd902132bba64c6e551 *inst/doc/fixedPoint.R
 78ae43e01e441923eefd778ab2ac15fb *inst/doc/fixedPoint.Rmd
-1546b73f62f111cebe0c46ca8b4d7406 *inst/doc/fixedPoint.html
+79879f4b162bd09709d36b7e9bc4207b *inst/doc/fixedPoint.html
 8f224c36f4fc7ae265550a554f4002eb *man/bootstrap.Rd
 c652c31c12d8dbd7cb6d9492eb4807be *man/constTestData.Rd
 55eb6a90ce201b30dfba040cd2b8fe2c *man/correlation.Rd

@@ -11,7 +11,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 
 
-<meta name="date" content="2023-01-17" />
+<meta name="date" content="2024-03-15" />
 
 <title>Notes on the fixed point framework</title>
 
@@ -354,7 +354,7 @@ code > span.er { color: #a61717; background-color: #e3d2d2; }
 
 
 <h1 class="title toc-ignore">Notes on the fixed point framework</h1>
-<h4 class="date">2023-01-17</h4>
+<h4 class="date">2024-03-15</h4>
 
 
 
@@ -372,11 +372,11 @@ f(x) = 1 + \frac{1}{x}
 \]</span></p>
 <p>To find the value of <span class="math inline">\(x\)</span> for which <span class="math inline">\(f(x) = x\)</span> we can use <code>fixedPoint</code>.</p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true"></a><span class="kw">library</span>(<span class="st">&quot;saeRobust&quot;</span>)</span></code></pre></div>
-<pre><code>## Lade nötiges Paket: aoos</code></pre>
+<pre><code>## Loading required package: aoos</code></pre>
 <div class="sourceCode" id="cb3"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true"></a><span class="kw">library</span>(<span class="st">&quot;magrittr&quot;</span>)</span>
 <span id="cb3-2"><a href="#cb3-2" aria-hidden="true"></a>convCrit &lt;-<span class="st"> </span><span class="cf">function</span>(xn1, xn0) <span class="kw">abs</span>(xn0 <span class="op">-</span><span class="st"> </span>xn1) <span class="op">&lt;</span><span class="st"> </span><span class="fl">0.001</span></span>
 <span id="cb3-3"><a href="#cb3-3" aria-hidden="true"></a><span class="kw">fixedPoint</span>(<span class="cf">function</span>(x) <span class="dv">1</span> <span class="op">+</span><span class="st"> </span><span class="dv">1</span> <span class="op">/</span><span class="st"> </span>x, <span class="kw">rnorm</span>(<span class="dv">1</span>), <span class="dt">convCrit =</span> convCrit)</span></code></pre></div>
-<pre><code>## [1] 1.617892</code></pre>
+<pre><code>## [1] 1.618236</code></pre>
 <div id="square-root" class="section level1">
 <h1>Square Root</h1>
 <p>Another example which can be used is to find the square root. The square root of <span class="math inline">\(p\)</span> is the fixed point of the function</p>
